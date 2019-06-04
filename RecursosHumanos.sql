@@ -1,4 +1,3 @@
-
 create database RecursosHumanos 
 use RecursosHumanos
 create table Funcionario
