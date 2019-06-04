@@ -3,13 +3,13 @@ Neste repositório terá todos os exercícios de Banco de Dados da escola Etec V
 
 ## Escopo
 
-- [x] Lista 1
-- [x] Lista 2
-- [x] Lista 3
-- [x] Lista 4
-- [x] Lista 5
-- [x] Lista 6
-- [x] Lista 7
-- [ ] Lista 8
-- [ ] Lista 9
+- [X] Lista 1
+- [X] Lista 2
+- [X] Lista 3
+- [X] Lista 4
+- [X] Lista 5
+- [X] Lista 6
+- [X] Lista 7
+- [X] Lista 8
+- [X] Lista 9
 - [ ] Lista 10
