@@ -16,6 +16,6 @@ select Nome, Pedidos.* from Funcionarios, Pedidos where LEFT(Nome, 1) = 'A' and 
 --8
 select Descr, Unidades from Fornecedores, Produtos where Produtos.CodFor = Fornecedores.CodFor and Empresa = 'Exotic Liquids'
 --9
-select distinct Descr from Produtos, Pedidos where count(Descr) >= 50 and year(DataPed) = 1997 and 
+select distinct Descr from Produtos, Pedidos, DetalhesPed where Qtde>= 50 and year(DataPed) = 1997 and Produtos.CodProd = DetalhesPed.CodProd and Pedidos.NumPed = DetalhesPed.NumPed
 --10
-select Categorias.Descr, Produtos.Descr from Categorias, Produtos
+select distinct Categorias.Descr, Produtos.Descr from Categorias, Produtos, Pedidos, DetalhesPed where Qtde >= 50 and YEAR(DataPed) = 1997 and Categorias.CodCategoria = Produtos.CodCategoria order by Produtos.Descr desc
