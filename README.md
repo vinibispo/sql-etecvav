@@ -16,4 +16,4 @@ Neste repositório terá todos os exercícios de Banco de Dados da escola Etec V
 - [X] Lista 11
 - [X] Lista 12
 - [X] Lista 13
-- [ ] Lista 14
+- [X] Lista 14
